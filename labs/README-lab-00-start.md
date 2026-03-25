@@ -29,6 +29,7 @@ If you are running locally and this is a fresh clone, run:
 ```bash
 pnpm env:setup
 pnpm install -r --frozen-lockfile
+pnpm --filter bbs-lib run build
 ```
 
 ## Terminal 1: start the services
